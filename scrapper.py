@@ -507,7 +507,29 @@
 
 
 
-########## JUN - 29 ##########
+###################### JUN - 29 ##########################
+
+''' 
+
+go to git bash
+git config --global user.name "Kristena Nova"
+git config --global user.email "kreznova@gmail.com"
+
+git init
+git status => if you want to check what the status of files are
+git diff => if you want to check what the changes are
+git add .
+git commit -m "Your message"
+copy paste git code from github
+
+1. change the code
+2. git add . 
+3. git commit -m "Your message"
+4. git push 
+
+'''
+
+
 # import requests
 # from bs4 import BeautifulSoup
 # import json
@@ -602,3 +624,6 @@ with open("books.csv", "w", newline = "", encoding = "utf-8") as f:
     writer = csv.DictWriter(f, fieldnames = ["title", "currency", "price"])
     writer.writeheader()
     writer.writerows(all_books)
+
+
+
